@@ -37,4 +37,10 @@ body::before{
     .scrolling-text-responsive{
         margin-left: 1rem;
     }
+    .card:not(:first-child){
+      display: none;
+    }
+     .courses-heading{
+      text-align: center;
+    }
   }
